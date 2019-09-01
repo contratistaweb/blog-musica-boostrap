@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<title>Mi blog de Musica</title>
+	</head>
+
+	<body class="container bg-dark p-3">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		
+		<div class="row">
+			<header class="rounded bg-light col-lg-12 mt-1">
+				<img id="logo" class="rounded-circle" src="image/logo.png" alt="logo"/>
+				<div class="d-flex flex-row-reverse">
+					<img class="rounded-circle icono" src="image/iconos/twitter.png" alt="twitter"/>
+					<img class="rounded-circle icono" src="image/iconos/instagram.png" alt="instagram"/>
+					<img class="rounded-circle icono" src="image/iconos/facebook.png" alt="facebook"/>
+					<img class="rounded-circle icono" src="image/iconos/Pinteres.png" alt="pinteres"/>
+					<img class="rounded-circle icono" src="image/iconos/whatsapp.jpg" alt="whatsapp"/>
+				</div>
+			</header>
+			
+			
+			<nav class="navbar navbar-light bg-light text-center col-lg-12 rounded mt-1" id="enlaces">
+				<a class="nav-item nav-link col-lg-2" href="#">Inicio</a>
+				<a class="nav-item nav-link col-lg-2" href="#">Artistas</a>
+				<a class="nav-item nav-link col-lg-2" href="#">Grupos</a>
+				<a class="nav-item nav-link col-lg-2" href="#">Top 10</a>
+				<a class="nav-item nav-link col-lg-2" href="#">Letras</a>
+				<a class="nav-item nav-link col-lg-2" href="#">Acordes</a>
+			</nav>
+			
+			
+			<section class="bg-light col-lg-9 mt-1 rounded">
+				<article>
+					<div class="card m-3 p-3 shadow">
+					  <div class="row no-gutters">
+						<div class="col-md-4">
+						  <img src="image/musica/musica.jpg" class="card-img" alt="musica">
+						</div>
+						<div class="col-md-8">
+						  <div class="card-body">
+							<h5 class="card-title">Mi musica favorita</h5>
+							<p class="card-text text-justify">La musica a evolucionado, nuevos ritmos han surgido, nuevos artistas se han dado a conocer y la variedad de generos es realmente grande. No obstante mi inclinacion por el genero salsero y el rock tanto en español como en ingles, siguen siendo mis favoritos, ya que encuentro en sus ritmos y letras una portunidad de expresion. Ritmos lento y rapidos, suaves o estruendosos, acompañan diferentes historias algunas realies y otras de fantasia, algunas que isitan a imaginar y otras a reflexionar, algunas a a algria y otras a la tristesa pero siempre habra una cancion para cada tipo de persona.</p>
+							<span class="card-text"><small class="text-muted">creado por Luillin Escobar</small></span>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="m-3">
+						<img class="icono rounded-circle col-2" src="image/iconos/perfil.png" alt="avatar"/>
+						<textarea class="rounded-pill col-10" placeholder="Dejanos tu comentario"></textarea>
+					</div>
+				</article>
+				<article>
+					<div class="card m-3 p-3 shadow">
+					  <div class="row no-gutters">
+						<div class="col-md-8">
+						  <div class="card-body">
+							<h5 class="card-title">Mi cancion favorita</h5>
+							<p class="card-text text-justify">Mi cancion favorita es aquella que permita interpretar un sentimiento, es aquella en la que su letra y su ritmo se unen para transmitir una emocion, aquella que logre con su mensaje transformar el mundo una persona a la vez. Mi cancion favorita es aquella que enpiesas tarareando, y terminas cantando a todo pulmon, o aquella que puedes dedicar para expresarte con alguien mas. Mi cancion favorita es aquella que trasciende en tiempo y espacio, aquella que se pudo escuchar  ayer y que ho cantas con la mis pasion. esa es mi cancion favorita.</p>
+							<p class="card-text"><small class="text-muted">creado por Luillin Escobar</small></p>
+						  </div>
+						</div>
+						<div class="col-md-4">
+							<img src="image/musica/musica-2.jpg" class="card-img align-right" alt="musica">
+						</div>
+					  </div>
+					</div>
+					<div class="m-3">
+						<img class="icono rounded-circle col-2" src="image/iconos/perfil.png" alt="avatar"/>
+						<textarea class="rounded-pill col-10" placeholder="Dejanos tu comentario"></textarea>
+					</div>
+				</article>
+			</section>
+
+			
+			<form class="col-lg-3 mt-1 bg-light rounded">
+				<div class="form-group m-3">
+					<label for="busqueda"><h3>Busqueda</h3></label>
+					<input id="busqueda" type="search" class="form-control" placeholder="Buscar en el blog..."/>
+					<button type="button" class="btn-primary">Buscar</button>
+					<div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch1">
+						<label class="custom-control-label" for="customSwitch1">Activar la busqueda avanzada</label>
+					</div>
+					
+					<div for="avanzado" class="input-group">
+						<input class="custom-checkbox" type="checkbox" id="articulos"/>
+						<div class="col-form-label">
+							<label for="articulos" class="col-form-label">Buscar solo en Articulos</label>
+						</div>
+					<div class="input-group">
+						<input class="custom-checkbox" type="checkbox" id="palabras"/>
+						<div class="col-form-label">
+							<label for="palabras" class="col-form-label">Buscar palabra exacta</label>
+						</div>
+					</div>
+					<label for="customRange1">Relevancia del texto</label>
+					<input type="range" class="custom-range" min="0" max="5" id="customRange1">
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
